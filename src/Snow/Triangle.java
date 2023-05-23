@@ -22,7 +22,6 @@ public class Triangle extends Figure implements Square {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
         int result = a + b + c;
-        System.out.println(result);
         return result;
     }
 }

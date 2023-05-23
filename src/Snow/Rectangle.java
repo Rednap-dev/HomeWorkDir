@@ -19,8 +19,7 @@ public class Rectangle extends Figure implements Square {
         System.out.println("Введите стороны прямоугольника: ");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int resultR = (a + b)*2;
-        System.out.println(resultR);
+        int resultR = (a + b) * 2;
         return resultR;
     }
 }
